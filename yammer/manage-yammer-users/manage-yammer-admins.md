@@ -2,7 +2,7 @@
 title: "Manage Yammer admins"
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
+ms.author: natjeremy
 author: natjeremy
 manager: pamgreen
 ms.date: 4/22/2022
@@ -29,7 +29,7 @@ Below are the available roles, their purpose, and the actions that can be perfor
 | Role <br/> | Business purpose <br/> |
 |:-----|:-----|
 |[Global Admin](manage-yammer-admins.md#bmk_global) <br>(Azure Active Directory)<br/> |Manage all aspects of Azure Active Directory  (AD) and Microsoft services that use Azure AD identities, including all tasks a Yammer Verified Admin and Office 365 report reader can perform.  <br> Users are assigned this role in Azure Active Directory and reflected in Yammer as a Verified Admin.  <br/> |
-|[Yammer Administrator](manage-yammer-admins.md#bmk_yadmin) (Azure Active Directory)<br/> |All the tasks a Yammer Verified Admin and Office 365 report reader can perform.  Users are assigned this role in Azure Active Directory and are reflected in Yammer as a Verified Admin. <br/> |
+|[Yammer Administrator](manage-yammer-admins.md#bmk_yadmin) (Azure Active Directory)<br/> |All the tasks a Yammer Verified Admin and Office 365 report reader can perform.  Users are assigned this role in Azure Active Directory and are reflected in Yammer as a Verified Admin. <br/> <p>**Note:** This role is currently in preview and not available to all customers. |
 |[Yammer Verified Admin](manage-yammer-admins.md#bmk_verified) <br/> |Configure the Yammer network and perform tasks with legal implications for the data stored in Yammer, such as configuring security settings, monitoring keywords for appropriate use, managing data retention, and exporting data.  <br/> |
 |[Yammer Network Admin](manage-yammer-admins.md#bmk_network) <br/> |Configure the Yammer network.  <br/> |
 |[Yammer Community Admin](manage-yammer-admins.md#bmk_group) <br/> |Manage day-to-day activity within a community to keep the community engaged and productive, including monitoring usage activity.  <br/> |
@@ -51,7 +51,7 @@ The Global Administrator role is assigned in Azure Active Directory. Any user as
 
 <a name="bmk_yadmin"> </a>
 ## Yammer Administrator (Azure Active Directory)
-The Yammer Administrator role is assigned in Azure Active Directory. Any user assigned this role is synchronized to Yammer and reflected as a Yammer Verified Admin.
+The Yammer Administrator role is assigned in Azure Active Directory. Any user assigned this role is synchronized to Yammer and reflected as a Yammer Verified Admin. <p>**Note:** This role is currently in preview and not available to all customers.
 
 | Function <br/> | Details <br/> |
 |:-----|:-----|
